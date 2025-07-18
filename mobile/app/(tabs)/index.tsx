@@ -1,10 +1,8 @@
-import { View } from "react-native";
-import { Text } from "react-native";
+import React from 'react';
+import HomePage from './HomePage';
+
 
 export default function HomeScreen() {
   return (
-    <View style={{ backgroundColor: 'white', flex: 1 }}>
-      <Text>Welcome to the Home Screen!</Text>
-    </View>
-  )
-}
+    <HomePage></HomePage>
+  )};
